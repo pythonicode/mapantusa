@@ -1,7 +1,7 @@
 'use client';
 
 import { View, Map } from "ol";
-import { RefObject, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import OSM from "ol/source/OSM";
 import TileLayer from "ol/layer/Tile";
 import Link from "next/link";
